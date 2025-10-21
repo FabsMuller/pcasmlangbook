@@ -1,0 +1,78 @@
+The ZIPKEY zipcode directory eliminates 
+the manual typing of U.S. cities and towns! 
+
+ZIPKEY is a complete city-level directory of 5-digit United 
+States zipcodes, combined with a keyboard enhancement program. 
+The goal of ZIPKEY is to provide enough power and flexibility 
+so that no one with an IBM-PC (or hardware-compatible 
+computer) will ever again have to manually type in the name of 
+a United States city or town (at least not one big enough to 
+have its own zipcode). 
+
+When run as an ordinary program from the DOS command prompt, 
+ZIPKEY allows you to instantly access any of the 43000+ 
+zipcodes in the directory, searching by zipcode, state-and-
+city, or city-only.  You'll be amazed by ZIPKEY's speed and 
+power.  ZIPKEY is so fast it can fill its popup window with 
+intermediate results-- you can watch the search narrowing down 
+with every keystroke.  You can use your keyboard's paging and 
+arrow keys to explore ZIPKEY's database, gaining fascinating 
+insights into U.S. geography through the names of its cities 
+and towns. 
+
+ZIPKEY achieves its full power when installed permanently in 
+memory.  In this "memory-resident" mode, you can invoke ZIPKEY 
+from within any other program (a word processor, a data-base 
+manager, etc.).  You can type just a 5-digit zipcode, and 
+ZIPKEY will fool the program you're running into thinking that 
+you have typed any or all of the following: the city name, the 
+state name and/or abbreviation, the zipcode, and any other 
+combination of fixed keystrokes.  This "keystroke output" can 
+be in any format. 
+
+ZIPKEY is completely configurable.  You can specify any 
+combination of keystrokes (the "hotkey") that will invoke 
+ZIPKEY when running another program.  You can also specify 
+alternate hotkeys to allow differing sources of zipcode 
+specifications (repeat the last zipcode, use a fixed sequence 
+of first digits, or get the zipcode from the screen), and/or a 
+differing format when ZIPKEY feeds the city/state/zip back 
+through the keyboard.  The configuration is stored in a disk 
+file, which is automatically read by ZIPKEY whenever it is 
+invoked. 
+
+ZIPKEY has a sophisticated abbreviation algorithm, allowing 
+you to specify a limit to the length of the city name, so 
+that it will fit into a fixed field. 
+
+ZIPKEY's database is based on data from numerous sources, 
+including the U.S. Postal Service.  It has been extensively 
+cross-checked to ensure accuracy and consistency.  The data is 
+highly compressed, so it won't occupy very much space on disk 
+or in memory.  The compression method was custom-designed for 
+this database, providing for maximum compaction while 
+retaining instant access.  It occupies less than 128K bytes 
+(less than 3 bytes per entry), small enough to allow 
+installation of the data base in either LIM-EMS or main 
+memory.  But access to the data is fast enough so that it is 
+perfectly reasonable to leave the database on a hard or RAM 
+disk-- in that case, resident ZIPKEY occupies only 19K of main
+memory.
+
+The zipcode data is updated monthly.  You can arrange to
+receive update diskettes at any frequency from monthly to
+annually.  Attractive pricing is offered for the licensing
+of multiple keyboards. 
+
+The basic registration for one keyboard is $30.  You get one
+disk with the latest data, the printed manual, and the license
+to execute ZIPKEY in memory-resident mode for one year, or
+in non-resident mode indefinitely.  Send a check, money order,
+or Visa/MC/Amex number and expiration date to:
+
+    Eric Isaacson Software
+    416 E. University Ave.
+    Bloomington, IN 47401-4739
+
+    credit card orders can also call (812)339-1811
+

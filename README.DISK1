@@ -1,0 +1,18 @@
+By a special arrangement with author Eric Isaacson, we are including
+evaluation versions of his A86 assembler and D86 debugger.  If you
+decide to use these products to write your own programs, you should
+purchase them from Mr. Isaacson, at the address given in the documentation
+for those programs.  The complete package costs $90.00, and includes
+some extra utilities not found in this evaluation version.
+
+Before using A86 to assemble the source code listed in the book, it may be
+necessary to make minor changes.  The macros, for example, in AO3.ASM need
+to be modified.  A converted listing for this program can be found on the
+disk, titled AO3_A86.ASM.  ASCIIORG.ASM will require no modifications.  Due
+to the complexity of changes that are required for AO2.ASM, it has not been
+converted.  It is suggested that you wait until you have a good understanding
+of both assembly language and the A86 assembler before attempting this.
+
+Mr. Isaacson has provided extensive documentation for the A86 assembler.  
+Please refer to this documentation with any questions concerning the use
+of this product.

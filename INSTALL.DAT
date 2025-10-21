@@ -1,0 +1,172 @@
+
+@DefineProject
+     @Name          = "Assembly: Step by Step"
+     @Version  = "1.0"
+     @Subdir   = "\\assem\\"
+     @OutDrive      = Z
+@EndProject
+
+@Display
+     @name-installation disk
+		      (C)1990 Abacus Software, Inc.
+		      (C)1990 Data Becker, GmbH.
+     
+          This installation procedure is used to transfer the contents
+     of the companion diskettes onto a harddisk or another floppy drive.
+
+          The installation program used to install @name,
+     INSTALL, is licensed software provided by:
+
+			Knowledge Dynamics Corp
+			Highway contract 4 Box 185-h
+			Canyon Lake, TX 78133-3508
+ 
+     @pause
+     @Cls
+
+
+     You may press the [Esc] key at any time to abort the
+     installation.
+
+     If you do not wish to install this disk on your harddrive
+     either use this program to install on another floppy other
+     than the source drive.  If you don't have a second floppy
+     drive just use the regular diskcopy to make a backup of the
+     original and use this as your working disk.
+
+
+     @Pause
+     @cls
+          By a special arrangement with author Eric Isaacson, we are
+     including an evaluation versions of his A86 assembler and D86 debugger.
+     If you decide to use these products to write your own programs, you   
+     should purchase them from Mr. Isaacson, at the address given in the  
+     documentation for those programs.  The complete package costs $90.00,
+     and includes some extra utilities not found in this evaluation version.
+
+
+     @pause
+     @cls
+
+          Before using A86 to assemble the source code listed in the book,
+     it may be necessary to make minor changes.  The macros, for example,
+     in AO3.ASM need to be modified.  A converted listing for this program
+     can be found on the disk, titled AO3_A86.ASM.  ASCIIORG.ASM will require
+     no modifications.  Due to the complexity of changes that are required
+     for AO2.ASM, it has not been converted.  It is suggested that you wait
+     until you have a good understanding of both assembly language and the
+     A86 assembler before attempting this.  Mr. Isaacson has provided
+     extensive documentation for the A86 assembler.  Please refer to this
+     documentation with any questions concerning the use of this product.
+
+
+     @pause
+@cls   
+@EndDisplay
+
+@GetOutDrive
+     @CLS
+     On which disk drive do you wish to install @Name:
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     Use the [Up Arrow], [Down Arrow], [Pg Up], & [Pg Dn] keys to
+     move the bar to the disk drive you wish to install to and then press
+     the [Enter] key.
+@EndOutDrive
+@GetSubdir
+     @CLS
+
+     Now you need to specify the destination subdirectory where the
+     @Name system will be installed.
+
+     @PROMPT = " Which subdirectory ? "
+@EndSubdir
+
+
+@DefineDisk
+     @LABEL = "Disk 1/1"
+         
+ 	 	@File        ADD.DEM
+		@File       ADD2.DEM
+		@File        AO2.ASM
+		@File        AO2.COM
+		@File        AO2.LST
+		@File        AO2.OBJ
+		@File        AO3.ASM
+		@File        AO3.COM
+		@File        AO3.LST
+		@File        AO3.OBJ
+		@File   ASCIIORG.ASM
+		@File   ASCIIORG.COM
+		@File   ASCIIORG.LST
+		@File   ASCIIORG.OBJ
+		@File       BIOS.DEM
+		@File    BOOLEAN.DEM
+		@File      BSORT.DEM
+		@File     BTABLE.DEM
+		@File       CALL.DEM
+		@File     CHARIO.DEM
+		@File        CMP.DEM
+		@File   COUNTAGE.DEM
+		@File        DIV.DEM
+		@File       DUMP.ASM
+		@File       DUMP.COM
+		@File       DUMP.LST
+		@File       DUMP.OBJ
+		@File   FLAGCOND.DEM
+		@File    HLTWAIT.DEM
+		@File       INC2.DEM
+		@File   INDIRECT.DEM
+		@File        INT.DEM
+		@File        JMP.DEM
+		@File     LDSLEA.DEM
+		@File      LOOP1.DEM
+		@File      LOOP2.DEM
+		@File     MEMOPS.DEM
+		@File       MOV1.DEM
+		@File       MOV2.DEM
+		@File       MOV3.DEM
+		@File       MOV4.DEM
+		@File       MOV5.DEM
+		@File        MUL.DEM
+		@File    REPMOVS.DEM
+		@File     SHIFTS.DEM
+		@File    SIGNEDN.DEM
+		@File      SIM88.EXE
+		@File   SOPREFIX.DEM
+		@File   SPEAKER1.DEM
+		@File   SPEAKER2.DEM
+		@File      SPRIM.DEM
+		@File      STACK.DEM
+		@File        SUB.DEM
+		@File       XCHG.DEM
+		@File    XLATNEG.DEM
+		@File    AO3_A86.ASM
+		@File    AO3_A86.COM
+		@File    AO3_A86.SYM
+      		@File   AORG_A86.COM
+		@File   AORG_A86.SYM
+		@File         README
+	        @File        SIM.BAT
+		@File      SIM88.TXT
+		@File       WAIT.EXE
+@EndDisk
+@Finish
+@Endfinish
+
+/* end-of-file */
+
